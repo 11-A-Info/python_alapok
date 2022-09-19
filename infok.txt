@@ -1,4 +1,5 @@
 1. from os import system
 2. system("cls")
 3. memóriakezelés, minden infó változókban eltárolva
-4. python - típusfüggetlen => dinamikus memóriakezelés
+4. python az típusfüggetlen = dinamikus memóriakezelés
+5. használt beépített típusok: str, int, float, list, bool

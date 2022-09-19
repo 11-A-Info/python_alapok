@@ -2,10 +2,8 @@ from os import system
 
 system("cls")
 
-elsoValtozo = 12
+elsovaltozo = 12
 
-print(elsoValtozo)
+kiir = "A változó értéke: " + str(elsovaltozo)
 
-elsoValtozo = "A 10_a a legjobb"
-
-print(elsoValtozo)
+print(kiir)
