@@ -2,11 +2,21 @@ from os import system
 
 system("cls")
 
-# 2. feladat: prog_alapf.3
+# 4. feladat: prog_alapf.5
 
-# explicit típuskonverzió
-szam = int(input("Kérek egy számot: "))
-kiir = f"A szám: {szam} és kétszerese: {2 * szam}
+elsoSzam = int(input("Kérem az első számot: "))
+masodikSzam = int(input("Kérem a második számot: "))
 
-print(kiir)
+logikaiKifejezes_1 = elsoSzam < masodikSzam
+logikaiKifejezes_2 = masodikSzam < elsoSzam
 
+if logikaiKifejezes_1:
+    kiir = f"A második szám: {masodikSzam} a nagyobb."
+    print(kiir)
+elif logikaiKifejezes_2:
+    kiir = f"Az első szám: {elsoSzam} a nagyobb."
+    print(kiir)
+else:
+    kiir = "A két szám egyenlő."
+    print(kiir)
+    
