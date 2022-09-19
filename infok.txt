@@ -3,3 +3,6 @@
 3. memóriakezelés, minden infó változókban eltárolva
 4. python az típusfüggetlen = dinamikus memóriakezelés
 5. használt beépített típusok: str, int, float, list, bool
+6. explicit típuskonverzió - én magam írom be a kódba a típusváltoztatást: 
+    szam = int(bemenetiErtek)
+Ebben az esetben a beolvasott sztring értéket alakítom egész számmá.
