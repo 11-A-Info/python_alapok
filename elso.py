@@ -8,5 +8,7 @@ system("cls")
 szam = int(input("Kérek egy számot: "))
 kiir = f"A szám: {szam} és kétszerese: {2 * szam}"
 
+masodik = 158
+
 print(kiir)
 
